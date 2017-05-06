@@ -1,0 +1,18 @@
+@import "zmienne";
+
+body {
+    color: $base_color;
+    background-color: $bg_color;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        li {
+            display: inline-block;
+        }
+    }
+}
