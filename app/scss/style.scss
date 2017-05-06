@@ -1,5 +1,10 @@
 @import "zmienne";
 
+@mixin menu_nawigacyjne {
+    color: red;
+    font-size: 22px;
+}
+
 body {
     color: $base_color;
     background-color: $bg_color;
@@ -13,6 +18,10 @@ nav {
         
         li {
             display: inline-block;
+            
+            a{
+                @include menu_nawigacyjne;
+            }
         }
     }
 }

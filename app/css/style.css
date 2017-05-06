@@ -8,3 +8,6 @@ nav ul {
   list-style: none; }
   nav ul li {
     display: inline-block; }
+    nav ul li a {
+      color: red;
+      font-size: 22px; }
